@@ -1,0 +1,782 @@
+........................................................................ [ 15%]
+........................................................................ [ 31%]
+........................................................................ [ 46%]
+........................................................................ [ 62%]
+........................................................................ [ 77%]
+........................................................................ [ 93%]
+...............................                                          [100%]
+=============================== warnings summary ===============================
+testing/python/riscv/TileOps/test_cb_producer.py::test_cb_producer_float16_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-nm7kq8cu'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_chain_speculative_sampling.py::test_chain_speculative_sampling_ragged_runtime_compare[32-1]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-_a9zk_zf'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv1d_bias_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ynlzf9yu'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv1d_pointwise_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-u4yhgy6f'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_group_conv1d_depthwise_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-qc_jjljs'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv2d_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-xsz_xdzb'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv2d_bias_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-vk19uldt'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv2d_symmetric_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-oqkhi3c2'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv2d_1x1_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-xat66c8o'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv3d_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2m0cydbq'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_conv3d_bias_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-f_h4hgc8'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_group_conv2d_depthwise_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-zvxw45af'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_convolution.py::test_group_conv3d_depthwise_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-9vdh7ywj'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_da_cumsum.py::test_da_cumsum_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-z6ggckz3'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_delta_decode.py::test_deltanet_decode_runtime_compare[False-False-dtype0]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ikq9g342'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_dropout_rope.py::test_dropout_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-_p2t78qk'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_dropout_rope.py::test_rope_float32_runtime_compare[RoPENeoxKernel-True]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-qnsrd9ww'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_dropout_rope.py::test_rope_float32_runtime_compare[RoPENeoxKernel-True]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-7lypu6ub'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_dropout_rope.py::test_rope_float32_runtime_compare[RoPENonNeoxKernel-False]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-5gih6hyf'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_dropout_rope.py::test_rope_neox_position_ids_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-kg9gmc30'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[ReluFwdKernel-<lambda>-relu-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-3mvb3my_'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[GeluTanhFwdKernel-<lambda>-<lambda>-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-z7aeii0y'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[GeluFwdKernel-<lambda>-<lambda>-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-umdcp8iz'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[ErfFwdKernel-<lambda>-erf-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-acy975mp'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[SigmoidFwdKernel-<lambda>-sigmoid-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ch40cdcp'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[TanhFwdKernel-<lambda>-tanh-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-v9w7hup8'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[SiluFwdKernel-<lambda>-<lambda>-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-uq0r1egn'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[ExpFwdKernel-<lambda>-exp-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-37gr6rqn'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[LogFwdKernel-<lambda>-log-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-7_brz17u'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[Log1pFwdKernel-<lambda>-log1p-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-t_tmhyh5'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[Expm1FwdKernel-<lambda>-expm1-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-a9opmj6o'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[SqrtFwdKernel-<lambda>-sqrt-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-9v4m46lc'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[RsqrtFwdKernel-<lambda>-rsqrt-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-263dopia'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[ReciprocalFwdKernel-<lambda>-reciprocal-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-n9gemymi'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[FloorFwdKernel-<lambda>-floor-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-sv4r6o0r'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[CeilFwdKernel-<lambda>-ceil-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-bus_6r1i'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[SinFwdKernel-<lambda>-sin-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-iz7phul_'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[CosFwdKernel-<lambda>-cos-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-i5sruh4d'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[RoundFwdKernel-<lambda>-round-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-mehdaqts'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[TruncFwdKernel-<lambda>-trunc-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-4hguf4h7'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[NegFwdKernel-<lambda>-neg-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-hy2tuthp'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[AbsFwdKernel-<lambda>-abs-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ojwtkx57'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[SignFwdKernel-<lambda>-sign-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-y4kkc4nv'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[HardsigmoidFwdKernel-<lambda>-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-junu_a1e'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[HardswishFwdKernel-<lambda>-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-9h6tzbb6'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[MishFwdKernel-<lambda>-<lambda>-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-xc2gwoiu'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_activations.py::test_unary_float32_runtime_compare[SeluFwdKernel-<lambda>-selu-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-w89d6x0t'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[AddFwdKernel-add-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-3juo8ac3'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[SubFwdKernel-sub-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-29dsmz6g'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[MulFwdKernel-mul-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-43_x0xty'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[DivFwdKernel-div-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2n3z8kdo'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[DivTruncFwdKernel-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-oq_l519x'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[FloorDivideFwdKernel-floor_divide-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-k5_kah6e'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[RemainderFwdKernel-remainder-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-5fzgve93'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[PowFwdKernel-pow-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ywzoxay3'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[LerpFwdKernel-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-xdy10tza'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[MaximumFwdKernel-maximum-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-x6roocs8'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_arithmetic.py::test_binary_float32_runtime_compare[MinimumFwdKernel-minimum-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-wtzpqe6e'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_fused_gated.py::test_fused_gated_float32_runtime_compare[SiluAndMulFwdKernel-<lambda>-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-_0r1dsdd'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_fused_gated.py::test_fused_gated_float32_runtime_compare[GeluAndMulFwdKernel-gelu-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-7wg6gxks'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_fused_gated.py::test_fused_gated_float32_runtime_compare[GeluTanhAndMulFwdKernel-_gelu_tanh-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-q8hb7tt0'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_comparison_float32_runtime_compare[EqFwdKernel-eq]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-8m5t9bnq'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_comparison_float32_runtime_compare[NeFwdKernel-ne]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-5s80getj'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_comparison_float32_runtime_compare[GtFwdKernel-gt]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-lj6f8qsj'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_comparison_float32_runtime_compare[LtFwdKernel-lt]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-dnevcqcw'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_comparison_float32_runtime_compare[GeFwdKernel-ge]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ch1g8cld'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_comparison_float32_runtime_compare[LeFwdKernel-le]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-x5h6dy8t'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_logical_float32_runtime_compare[LogicalAndFwdKernel-logical_and]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-17nq7e6k'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_logical_float32_runtime_compare[LogicalOrFwdKernel-logical_or]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-qijqov3k'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[EqBoolStorageFwdKernel-eq]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-_5081lt5'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[NeBoolStorageFwdKernel-ne]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-rv8gvvf0'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[GtBoolStorageFwdKernel-gt]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ytjo24be'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[LtBoolStorageFwdKernel-lt]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ls_cyjjm'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[GeBoolStorageFwdKernel-ge]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-g97qvrxq'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[LeBoolStorageFwdKernel-le]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-4bmhphrd'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[LogicalAndBoolStorageFwdKernel-logical_and]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-_86rzqjk'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[LogicalOrBoolStorageFwdKernel-logical_or]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-67qa6vi9'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[BitwiseAndBoolStorageFwdKernel-bitwise_and]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-voqtapie'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[BitwiseOrBoolStorageFwdKernel-bitwise_or]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ly2f7ci0'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bool_storage_binary_uint8_runtime_compare[BitwiseXorBoolStorageFwdKernel-bitwise_xor]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-x7096qku'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bitwise_int32_runtime_compare[BitwiseAndFwdKernel-bitwise_and]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-kx6wvev7'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bitwise_int32_runtime_compare[BitwiseOrFwdKernel-bitwise_or]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-dhe5eaap'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bitwise_int32_runtime_compare[BitwiseXorFwdKernel-bitwise_xor]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2c_mo6jq'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_unary_predicate_float32_runtime_compare[LogicalNotFwdKernel-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ruo0kdhq'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_unary_predicate_float32_runtime_compare[IsnanFwdKernel-isnan]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-rhv8k4yu'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_unary_predicate_float32_runtime_compare[IsinfFwdKernel-isinf]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2po_igf4'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_unary_predicate_float32_runtime_compare[IsfiniteFwdKernel-isfinite]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-dkkg908e'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_bitwise_not_int32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-6c3gfiag'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_logical_not_bool_storage_uint8_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-9o9o3hl7'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_alibi_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-5zf906b_'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_sinusoidal_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-wy9hy1vu'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_where_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-6ea9wf7t'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_masked_fill_scalar_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-53gfk9oc'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_misc.py::test_masked_fill_tensor_value_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-gmd1ek1g'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[LeakyReluFwdKernel-kernel_kwargs0-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-veeqd5zy'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[EluFwdKernel-kernel_kwargs1-<lambda>-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-u2stjzr9'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[HardtanhFwdKernel-kernel_kwargs2-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-n622yr6_'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[SoftplusFwdKernel-kernel_kwargs3-<lambda>-1e-05-1e-05]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-fj4wc4ob'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[ClampFwdKernel-kernel_kwargs4-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-dqx2hban'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[ClampFwdKernel-kernel_kwargs5-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-kbbxuv4m'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[ClampFwdKernel-kernel_kwargs6-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-76iwepki'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_parametric_unary_float32_runtime_compare[NanToNumFwdKernel-kernel_kwargs7-<lambda>-1e-06-1e-06]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-a0w5r3m_'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_prelu_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ukjqc_89'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_lerp_tensor_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-xs4cbkqa'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_elementwise_parametric.py::test_clamp_tensor_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-x017zy3j'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_engram.py::test_engram_gate_conv_fwd_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-fu4djmy1'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_engram_bwd.py::test_engram_gate_conv_bwd_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-sg_h3y2k'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_engram_decode.py::test_engram_decode_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-xwcfmno9'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_fp8.py::test_gemm_fp8_per_tensor_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-cx5dxme1'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_fp8.py::test_gemm_fp8_block_scaled_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-yley0rfx'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_fp8.py::test_gqa_paged_fp8_kv_cache_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-xjamz0q6'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_fp8_lightning_indexer.py::test_fp8_lightning_indexer_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-0hl0za4d'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_fp8_quant.py::test_fp8_quant_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-gykdnowt'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_fp8_quant_per_block.py::test_fp8_quant_per_block_unaligned_runtime_compare[dtype0-random-3-17]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-k6x551ps'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_fused_topk.py::test_fused_topk_sigmoid_correction_bias_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-53c576is'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gemm.py::test_gemm_basic_runtime_compare[dtype0-False-False]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-47_zsv_a'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gla_bwd.py::test_gla_bwd_fused_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-0gd5yc6u'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gla_bwd.py::test_gla_bwd_fused_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-kkmwo_fi'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gla_bwd.py::test_gla_bwd_fused_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-hfsrkxim'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gla_bwd.py::test_gla_bwd_fused_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-wbldho7z'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gla_decode.py::test_gla_decode_float32_runtime_compare[GLADecodeKernel]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-qcbp4ew4'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gla_fwd.py::test_gla_fwd_precompute_g_float32_runtime_compare
+testing/python/riscv/TileOps/test_gqa_prefill_paged_kvcache_fwd.py::test_gqa_prefill_paged_kvcache_fwd_float32_runtime_compare_and_append
+testing/python/riscv/TileOps/test_gqa_prefill_paged_kvcache_rope_fwd.py::test_gqa_prefill_paged_kvcache_rope_fwd_float32_runtime_compare
+testing/python/riscv/TileOps/test_nsa_cmp_fwd.py::test_nsa_cmp_fwd_varlen_float32_runtime_compare
+testing/python/riscv/TileOps/test_nsa_fwd.py::test_nsa_fwd_varlen_float32_runtime_compare
+  /home/wangjiayue/tilelang-riscv-clean/tilelang/cache/kernel_cache.py:294: DeprecationWarning: `tl.disable_tma_lower` is deprecated and will be removed in v0.1.10. Use `T.copy(..., disable_tma=True)` per-copy instead.
+    return JITKernel(
+
+testing/python/riscv/TileOps/test_gqa_bwd.py::test_gqa_bwd_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ikvddc9e'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gqa_bwd.py::test_gqa_bwd_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ppqho4j1'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gqa_bwd_postprocess.py::test_gqa_bwd_preprocess_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-72wue6vf'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gqa_decode.py::test_gqa_decode_d256_runtime_compare[63-dtype0]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-gi1ig635'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gqa_decode.py::test_gqa_decode_d256_runtime_compare[63-dtype0]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-b685h7dx'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gqa_decode_paged.py::test_gqa_decode_paged_no_split_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-tjlfgxxt'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gqa_fwd.py::test_mha_fwd_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ga6i4mcw'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_gqa_prefill_paged_kvcache_rope_fwd.py::test_gqa_prefill_paged_kvcache_rope_fwd_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-05o3x8n8'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_mean_pooling.py::test_mean_pooling_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-4nbsj0gv'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_mha_decode.py::test_mha_decode_no_split_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-pptd9n7r'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_mha_decode.py::test_mha_decode_no_split_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-9k1fyf4d'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_mha_decode_paged.py::test_mha_decode_paged_no_split_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-blghecc2'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_mhc.py::test_mhc_pre_float32_serial_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-1i_z93rn'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_mla_decode.py::test_mla_decode_ws_rejects_cuda_wgmma_extern
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-pc_a22fr'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_moe_unpermute.py::test_moe_unpermute_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-plwkmvb7'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_moe_unpermute.py::test_moe_unpermute_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-wbkig970'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_rms_norm_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-krt1bpzs'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_group_norm_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-of3sq1bk'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_group_norm_no_affine_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-l14ar5qk'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_fused_add_layer_norm_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-z5pqvf0v'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_fused_add_rms_norm_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-3q2pbau3'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_ada_layer_norm_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-o_grvtj2'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_ada_layer_norm_zero_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-nqktpaom'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_batch_norm_infer_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ob880n97'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_batch_norm_infer_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-9vbvgc30'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_batch_norm_infer_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-gc502x0_'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_batch_norm_train_float32_runtime_compare[4-32-32]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2x9vtoh9'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_batch_norm_train_float32_runtime_compare[3-19-32]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-lvle1uqf'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_batch_norm_train_float32_runtime_compare[3-65-32]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-swmj89g_'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_norm.py::test_batch_norm_backward_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-mbiyg1jz'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_nsa_cmp_fwd.py::test_nsa_cmp_fwd_varlen_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ytyb7m30'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_pool.py::test_avg_pool2d_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-urs2pn46'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_pool.py::test_avg_pool3d_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-lfh4kf0w'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_pool.py::test_max_pool2d_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2qatznxg'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_pool.py::test_max_pool2d_with_indices_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-j7igwjnv'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_pool_extended.py::test_max_pool_runtime_compare[1-False]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-8e5d1k1m'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_reduce_float32_runtime_compare[mean-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-szv5gr56'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_reduce_float32_runtime_compare[amax-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-_86av07c'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_reduce_float32_runtime_compare[amin-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-lmt3tezv'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_reduce_float32_runtime_compare[prod-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-3xwlv4ez'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_reduce_float32_runtime_compare[std-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-89k3p_hq'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_reduce_float32_runtime_compare[var-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-q57gy8rv'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_reduce_var_mean_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-3u4d9oqi'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_softmax_float32_runtime_compare[softmax-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-pcc3wthu'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_softmax_float32_runtime_compare[log_softmax-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-7qq5gxga'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_softmax_large_row_float32_runtime_compare[softmax-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-mdm2ige4'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_softmax_large_row_float32_runtime_compare[log_softmax-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-lf9h5i1r'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_vector_norm_float32_runtime_compare[l1-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2bst4059'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_vector_norm_float32_runtime_compare[l2-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-j6h7h40j'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_vector_norm_float32_runtime_compare[inf-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-ygmbbv19'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_logical_reduce_float32_runtime_compare[any]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-mwkg6b5y'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_logical_reduce_float32_runtime_compare[all]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-_2lc5288'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_logical_reduce_float32_runtime_compare[count_nonzero]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-356abg7j'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_argreduce_float32_runtime_compare[argmax-<lambda>-256]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-lvnyx_c4'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_argreduce_float32_runtime_compare[argmax-<lambda>-513]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-qhpl9a8x'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_argreduce_float32_runtime_compare[argmax-<lambda>-4096]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-u883jgnt'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_argreduce_float32_runtime_compare[argmin-<lambda>-256]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-rjrpss3h'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_argreduce_float32_runtime_compare[argmin-<lambda>-513]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-2y07xk7h'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_argreduce_float32_runtime_compare[argmin-<lambda>-4096]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-7vcp0fsf'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_logsumexp_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-6nl0nc6c'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_logsumexp_tiled_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-uft1axqj'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_cumulative_float32_runtime_compare[sum-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-s41r2onx'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_reduction.py::test_cumulative_float32_runtime_compare[prod-<lambda>]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-i866lx2r'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_sampling_from_probs.py::test_sampling_from_probs_ragged_runtime_compare[33-32]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-cjsvlrtr'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_ssd_chunk_state.py::test_ssd_chunk_state_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-8h3cxspq'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_ssd_chunk_state.py::test_ssd_chunk_state_float32_seq_idx_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-wg_u89n5'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_ssd_decode.py::test_ssd_decode_float32_serial_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-x8yne6kw'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_ssd_state_passing.py::test_ssd_state_passing_float32_vectorize_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-qsggj7uj'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_topk_selector.py::test_topk_selector_float32_runtime_compare
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-vihgvekj'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+testing/python/riscv/TileOps/test_upstream_attention.py::test_mla_mma_runtime[1-dtype0]
+  /usr/lib64/python3.11/tempfile.py:895: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tilelang-host-lib-8_s_i_xu'>
+    _warnings.warn(warn_message, ResourceWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+463 passed, 196 warnings in 1889.65s (0:31:29)

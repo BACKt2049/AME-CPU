@@ -1,0 +1,28 @@
+........................................................................ [  8%]
+........................................................................ [ 17%]
+........................................................................ [ 26%]
+........................................................................ [ 34%]
+........................................................................ [ 43%]
+........................................................................ [ 52%]
+........................................................................ [ 61%]
+........................................................................ [ 69%]
+........................................................................ [ 78%]
+........................................................................ [ 87%]
+........................................................................ [ 96%]
+...............................                                          [100%]
+=============================== warnings summary ===============================
+testing/python/riscv/codegen_ops/test_atomic_ops.py: 2 warnings
+testing/python/riscv/codegen_ops/test_tile_ops.py: 10 warnings
+  /home/wangjiayue/tilelang-riscv-clean/tilelang/utils/deprecated.py:34: DeprecationWarning: T.Buffer(...) is deprecated, use T.Tensor(...) instead
+    deprecated_warning(method_name, new_method_name, phaseout_version)
+
+testing/python/riscv/TileOps/test_gla_fwd.py::test_gla_fwd_precompute_g_float32_runtime_compare
+testing/python/riscv/TileOps/test_gqa_prefill_paged_kvcache_fwd.py::test_gqa_prefill_paged_kvcache_fwd_float32_runtime_compare_and_append
+testing/python/riscv/TileOps/test_gqa_prefill_paged_kvcache_rope_fwd.py::test_gqa_prefill_paged_kvcache_rope_fwd_float32_runtime_compare
+testing/python/riscv/TileOps/test_nsa_cmp_fwd.py::test_nsa_cmp_fwd_varlen_float32_runtime_compare
+testing/python/riscv/TileOps/test_nsa_fwd.py::test_nsa_fwd_varlen_float32_runtime_compare
+  /home/wangjiayue/tilelang-riscv-clean/tilelang/cache/kernel_cache.py:345: DeprecationWarning: `tl.disable_tma_lower` is deprecated and will be removed in v0.1.10. Use `T.copy(..., disable_tma=True)` per-copy instead.
+    kernel = JITKernel(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+823 passed, 17 warnings in 1896.06s (0:31:36)

@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.6, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/wangjiayue/tilelang-riscv-clean
+configfile: pyproject.toml
+collecting ... collected 10 items
+
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[default-schedule-dtype0-cache_dtype0] PASSED [ 10%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[default-schedule-dtype1-cache_dtype1] PASSED [ 20%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[default-schedule-dtype2-cache_dtype2] PASSED [ 30%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[default-schedule-dtype3-cache_dtype3] PASSED [ 40%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[row-and-column-tails-dtype0-cache_dtype0] PASSED [ 50%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[row-and-column-tails-dtype1-cache_dtype1] PASSED [ 60%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[row-and-column-tails-dtype2-cache_dtype2] PASSED [ 70%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_runtime_compare[row-and-column-tails-dtype3-cache_dtype3] PASSED [ 80%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_fp8_special_values[dtype0] PASSED [ 90%]
+testing/python/riscv/TileOps/test_paged_kv_cache_write.py::test_paged_kv_cache_write_fp8_special_values[dtype1] PASSED [100%]
+
+============================= 10 passed in 28.76s ==============================
