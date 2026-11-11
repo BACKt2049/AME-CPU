@@ -1,0 +1,9 @@
+"""Builtin MLIR transformation pass descriptors."""
+
+from tilelang.tladapter.utils import pass_fn
+
+canonicalize = pass_fn("canonicalize")
+cse = pass_fn("cse")
+sccp = pass_fn("sccp")
+
+__all__ = ["canonicalize", "cse", "sccp"]

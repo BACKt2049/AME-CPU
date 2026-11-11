@@ -1,0 +1,1948 @@
+[
+ {
+  "excel_name": "engram_fused_weight_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_engram_fused_weight_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "engram_gate_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_engram_gate_fwd_kernel",
+   "get_engram_gate_bwd_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "engram_grad_w_reduce_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_engram_grad_w_reduce_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "engram_hash_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_engram_hash_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "expand_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "expand_to_mhc_fwd_tl",
+   "expand_to_mhc_bwd_tl"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "head_compute_mix_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_head_compute_mix_fwd",
+   "_mhc_head_compute_mix_bwd"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "multilayer_recompute_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_multilayer_recompute_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "norm_fn_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_fn_normw_merge_fwd",
+   "_mhc_fn_normw_merge_bwd"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "post_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_post_fwd",
+   "_mhc_post_bwd"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "pre_apply_mix_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_pre_apply_mix_fwd",
+   "_mhc_pre_apply_mix_bwd"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "pre_big_fuse_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_pre_big_fuse"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "pre_split_mixes_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_pre_split_mixes_fwd",
+   "_mhc_pre_split_mixes_bwd"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "sinkhorn_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "_mhc_sinkhorn_fwd",
+   "_mhc_sinkhorn_bwd"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "aux_fi_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_aux_fi_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "expand_to_fused_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_expand_to_fused_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "get_fused_mapping_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_get_fused_mapping_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "group_count_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_group_count_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "inplace_unique_group_indices_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_inplace_unique_group_indices_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "mask_indices_by_tp_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_mask_indices_by_tp_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "normalize_weight_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_normalize_weight_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "reduce_fused_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_reduce_fused_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "top2_sum_gate_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_top2_sum_gate_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "topk_gate_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_topk_gate_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "topk_sum_and_topk_group_idx_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_topk_sum_and_topk_group_idx_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "cast_back_e5m6_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_cast_back_e5m6_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "cast_back_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_cast_back_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "per_block_cast_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_per_block_cast_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "per_block_cast_lossless_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_per_block_cast_lossless_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "per_channel_cast_and_transpose_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_per_channel_cast_and_transpose_kernel",
+   "get_swiglu_forward_and_per_channel_cast_and_transpose_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "per_channel_cast_fused_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_per_channel_cast_fused_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "per_channel_cast_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_per_channel_cast_and_transpose_kernel",
+   "get_per_channel_cast_fused_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "per_token_cast_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_per_token_cast_kernel",
+   "get_swiglu_backward_and_per_token_cast_kernel",
+   "get_swiglu_forward_and_per_token_cast_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "per_token_cast_to_e5m6_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_per_token_cast_to_e5m6_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "swiglu_backward_and_per_token_cast_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_swiglu_backward_and_per_token_cast_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "swiglu_forward_and_per_channel_cast_and_transpose_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_swiglu_forward_and_per_channel_cast_and_transpose_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "swiglu_forward_and_per_token_cast_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_swiglu_forward_and_per_token_cast_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "batched_transpose_kernel",
+  "src": "TileKernels",
+  "matched": [
+   "get_batched_transpose_kernel"
+  ],
+  "method": "rule",
+  "confidence": 0.85
+ },
+ {
+  "excel_name": "DeepSeekSparseAttentionDecodeWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "DSADecodeWithKVCacheFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MultiHeadLatentAttentionDecodeWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MLADecodeWithKVCacheFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MeanPoolingForwardOp",
+  "src": "TileOPs",
+  "matched": [
+   "AvgPool1dFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "NSACmpFwdVarlenOp",
+  "src": "TileOPs",
+  "matched": [
+   "NSACompressedVarlenFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "NSAFwdVarlenOp",
+  "src": "TileOPs",
+  "matched": [
+   "NSAVarlenFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "NSATopkVarlenOp",
+  "src": "TileOPs",
+  "matched": [
+   "NSATopKVarlenFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionBwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQABwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionDecodePagedWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQAPagedFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionDecodeWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQADenseFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQADenseFwdOp",
+   "GQAVarlenFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionPrefillFP8TensorCoreFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQADenseFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionPrefillFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQAVarlenFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionPrefillPagedWithFP8KVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQAPrefillPagedWithKVCacheFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionPrefillPagedWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQAPrefillPagedWithKVCacheFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionPrefillVarlenFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQAVarlenFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionPrefillWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GQAPrefillPagedWithKVCacheFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GroupedQueryAttentionSlidingWindowFwdOp",
+  "src": "TileOPs",
+  "matched": [],
+  "method": "no-declaration",
+  "confidence": 0.0
+ },
+ {
+  "excel_name": "GroupedQueryAttentionSlidingWindowVarlenFwdOp",
+  "src": "TileOPs",
+  "matched": [],
+  "method": "no-declaration",
+  "confidence": 0.0
+ },
+ {
+  "excel_name": "MultiHeadAttentionBwdOp",
+  "src": "TileOPs",
+  "matched": [],
+  "method": "no-declaration",
+  "confidence": 0.0
+ },
+ {
+  "excel_name": "MultiHeadAttentionDecodePagedWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MHADecodePagedWithKVCacheFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MultiHeadAttentionDecodeWithKVCacheFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MHADecodePagedWithKVCacheFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MultiHeadAttentionFwdOp",
+  "src": "TileOPs",
+  "matched": [],
+  "method": "no-declaration",
+  "confidence": 0.0
+ },
+ {
+  "excel_name": "Conv1dBiasFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Conv1dFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "Conv1dFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Conv1dFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "Conv2dBiasFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Conv2dFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "Conv2dFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Conv2dFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "Conv3dBiasFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Conv3dFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "Conv3dFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Conv3dFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "DaCumsumFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "CumsumFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "DeltaNetBwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "DeltaNetChunkBwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "DeltaNetFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "DeltaNetFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "DeltaNetOp",
+  "src": "TileOPs",
+  "matched": [
+   "DeltaNetFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "DeltaNetDecodeOp",
+  "src": "TileOPs",
+  "matched": [
+   "DeltaNetRecurrentFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "DropoutOp",
+  "src": "TileOPs",
+  "matched": [
+   "DropoutFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "EluFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "EluFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GeluFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GeluFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "HardsigmoidFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "HardsigmoidFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "HardswishFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "HardswishFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "HardtanhFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "HardtanhFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LeakyReluFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LeakyReluFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "MishFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MishFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ReluFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ReluFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SeluFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SeluFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SigmoidFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SigmoidFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SiluFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SiluFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SoftplusFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SoftplusFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "TanhFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "TanhFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AlibiFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AlibiFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AddFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AddFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "DivFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "DivFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "FloorDivideFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "FloorDivideFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LerpFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LerpScalarFwdOp",
+   "LerpTensorFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "LerpTensorFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LerpTensorFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "MaximumFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MaximumFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "MinimumFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MinimumFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "MulFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MulFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "PowFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "PowFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "RemainderFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "RemainderFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SubFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SubFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "BitwiseAndFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "BitwiseAndFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "BitwiseNotFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "BitwiseNotFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "BitwiseOrFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "BitwiseOrFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "BitwiseXorFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "BitwiseXorFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ClampFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ClampTensorFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "ClampMaxFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ClampScalarFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "ClampMinFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ClampScalarFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "ClampScalarFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ClampScalarFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "EqFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "EqFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GeFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GeFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GtFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GtFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LeFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LeFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LtFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LtFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "NeFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "NeFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GeluAndMulFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GeluAndMulFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GeluTanhAndMulFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GeluTanhAndMulFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SiluAndMulFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SiluAndMulFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LogicalAndFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LogicalAndFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LogicalNotFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LogicalNotFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LogicalOrFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LogicalOrFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "MaskedFillFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MaskedFillTensorFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MaskedFillScalarFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MaskedFillScalarFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AbsFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AbsFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "CeilFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "CeilFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "CosFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "CosFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ErfFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ErfFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ExpFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ExpFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "Expm1FwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Expm1FwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "FloorFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "FloorFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "Log1pFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Log1pFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LogFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LogFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "NegFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "NegFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ReciprocalFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ReciprocalFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "RoundFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "RoundFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "RsqrtFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "RsqrtFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SignFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SignFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SinFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SinFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SqrtFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SqrtFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "TruncFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "TruncFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "NanToNumFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "NanToNumFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "IsfiniteFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "IsfiniteFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "IsinfFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "IsinfFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "IsnanFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "IsnanFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "PreluFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "PreluFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SinusoidalFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SinusoidalFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "WhereFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "WhereFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "EngramGateConvBwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "EngramGateConvBwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "EngramGateConvFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "EngramGateConvFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "EngramDecodeOp",
+  "src": "TileOPs",
+  "matched": [
+   "EngramDecodeFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "FFTC2COp",
+  "src": "TileOPs",
+  "matched": [
+   "FFTC2CFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "FP8LightingIndexerOp",
+  "src": "TileOPs",
+  "matched": [
+   "FP8LightningIndexerFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "FP8QuantOp",
+  "src": "TileOPs",
+  "matched": [
+   "FP8QuantFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GatedDeltaNetBwdOp",
+  "src": "TileOPs",
+  "matched": [],
+  "method": "no-declaration",
+  "confidence": 0.0
+ },
+ {
+  "excel_name": "GatedDeltaNetDecodeOp",
+  "src": "TileOPs",
+  "matched": [],
+  "method": "no-declaration",
+  "confidence": 0.0
+ },
+ {
+  "excel_name": "GatedDeltaNetFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GDNFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GatedDeltaNetOp",
+  "src": "TileOPs",
+  "matched": [
+   "GDNFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GLADecodeOp",
+  "src": "TileOPs",
+  "matched": [
+   "GLAFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GemmOp",
+  "src": "TileOPs",
+  "matched": [
+   "GemmFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GLABwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GLAChunkBwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "GLAFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GLAFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GroupedGemmOp",
+  "src": "TileOPs",
+  "matched": [
+   "GroupedGemmFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "Mamba2FwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "Mamba2FwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "MHCPostOp",
+  "src": "TileOPs",
+  "matched": [
+   "MHCPostFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MHCPreOp",
+  "src": "TileOPs",
+  "matched": [
+   "MHCPreFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "FusedMoeFwdCbFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "FusedMoEFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "FusedMoeFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "FusedMoEFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "FusedTopKOp",
+  "src": "TileOPs",
+  "matched": [
+   "FusedTopKFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MoePermuteAlignFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MoEPermuteAlignFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "FusedMoEExpertsNopadPersistent3WGFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "FusedMoEExpertsFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MoeGroupedGemmNopadFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MoEGroupedGemmFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MoeGroupedGemmNopad3WGFusedActFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MoEGroupedGemmFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MoePermuteNopadFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MoEPrePermuteFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "MoeUnpermuteFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MoEPostPermuteFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "AdaLayerNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AdaLayerNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AdaLayerNormZeroFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AdaLayerNormZeroFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "BatchNormBwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "BatchNormBwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "BatchNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "BatchNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "FusedAddLayerNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "FusedAddLayerNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "FusedAddRMSNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "FusedAddRMSNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GroupNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "GroupNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "GroupNormFwdOpNoAffine",
+  "src": "TileOPs",
+  "matched": [
+   "GroupNormFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "InstanceNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "InstanceNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "InstanceNormFwdOpNoAffine",
+  "src": "TileOPs",
+  "matched": [
+   "InstanceNormFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "LayerNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LayerNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "RMSNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "RMSNormFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AvgPool1dFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AvgPool1dFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AvgPool2dFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AvgPool2dFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AvgPool3dFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AvgPool3dFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AllFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AllFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AnyFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AnyFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ArgmaxFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ArgmaxFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ArgminFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ArgminFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "CountNonzeroFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "CountNonzeroFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "CumprodFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "CumprodFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "CumsumFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "CumsumFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "InfNormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "VectorNormFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "L1NormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "VectorNormFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "L2NormFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "VectorNormFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "LogSoftmaxFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LogSoftmaxFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "LogSumExpFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "LogSumExpFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AmaxFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AmaxFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "AminFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "AminFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "MeanFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "MeanFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "ProdFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "ProdFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "StdFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "StdFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SumFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SumFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "VarFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "VarFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "VarMeanFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "VarMeanFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SoftmaxFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SoftmaxFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "RopeLlama31Op",
+  "src": "TileOPs",
+  "matched": [
+   "RoPELlama31FwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "RopeLongRopeOp",
+  "src": "TileOPs",
+  "matched": [
+   "LongRoPEFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "RopeNeoxOp",
+  "src": "TileOPs",
+  "matched": [
+   "RoPENeoxPositionIdsFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "RopeNeoxPositionIdsOp",
+  "src": "TileOPs",
+  "matched": [
+   "RoPENeoxPositionIdsFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "RopeNonNeoxOp",
+  "src": "TileOPs",
+  "matched": [
+   "RoPEFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "RopeYarnOp",
+  "src": "TileOPs",
+  "matched": [
+   "RoPEFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "SSDChunkScanFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SSDChunkScanFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SSDChunkStateFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SSDChunkStateFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "SSDDecodeOp",
+  "src": "TileOPs",
+  "matched": [
+   "SSDRecurrentFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ },
+ {
+  "excel_name": "SSDStatePassingFwdOp",
+  "src": "TileOPs",
+  "matched": [
+   "SSDStatePassingFwdOp"
+  ],
+  "method": "exact",
+  "confidence": 1.0
+ },
+ {
+  "excel_name": "TopkSelectorOp",
+  "src": "TileOPs",
+  "matched": [
+   "TopKSelectFwdOp"
+  ],
+  "method": "manual",
+  "confidence": 0.9
+ }
+]
